@@ -5,6 +5,8 @@ from short_en import Shortener
 from flask import Flask, redirect
 
 app = Flask("short_en")
+app.config['DEBUG'] = False
+
 shortener = Shortener(sys.argv[1])
 
 

@@ -1,5 +1,3 @@
-import string
-import random
 import sys
 from short_en import Shortener
 from flask import Flask, redirect

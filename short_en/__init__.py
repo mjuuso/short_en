@@ -10,7 +10,6 @@ class Shortener(object):
         self.base_url = base_url
         self.db_file = 'url.db'
         self.__load()
-        pass
 
     def find(self, key):
         for h, u in self.urls.iteritems():
